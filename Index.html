@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+  <script></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <title>Youtube</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body style="background: #f9f9f9;">
+  
+  <!--nav -->
+  <div class="navbar navbar-light bg-white fixed-top">
+    <div class="container-fluid">
+      <!--home-->
+      <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+
+        <!--botao home-->
+          <img src="logo.png" style="width: 100px;" href="Index2.html">
+      </div>
+      <!--search-->
+      <div class="navbar navbar-light bg-white">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" style="border-radius: 2px;" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <!-- form e botao de search-->
+        <button class="btn" type="submit" style="border-radius: 2px; border-color: #cccccc;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg>
+        </button>
+      </div>
+      <!--buttons-->
+      <div style="margin-right: 12px;">
+
+        <button class="buttons btn btn-light" style="padding: 0;">
+          <svg width="24" fill="currentColor" viewBox="0 1 16 16">
+            <path style="width: 36;" fill-rule="evenodd" d="M8 10a.5.5 0 0 0 .5-.5V3.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 3.707V9.5a.5.5 0 0 0 .5.5zm-7 2.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+
+        <button class="buttons btn btn-light" style="padding: 0;">
+          <svg width="24" fill="currentColor" viewBox="0 1 16 16">
+            <path d="M4 2v2H2V2h2zm1 12v-2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm5 10v-2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V7a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zm0-5V2a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1zM9 2v2H7V2h2zm5 0v2h-2V2h2zM4 7v2H2V7h2zm5 0v2H7V7h2zm5 0h-2v2h2V7zM4 12v2H2v-2h2zm5 0v2H7v-2h2zm5 0v2h-2v-2h2zM12 1a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zm-1 6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zm1 4a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-2z"/>
+          </svg>
+        </button>
+
+        <button class="buttons btn btn-light" style="padding: 0;">
+          <svg width="24" fill="currentColor" viewBox="0 1 16 16">
+            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+          </svg>
+        </button>
+
+        <button class="buttons btn btn-light" style="padding: 0; background: black;">
+          <svg width="24" fill="currentColor" viewBox="0 1 16 16">
+            
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+<!---->
+
+  <div class="d-flex flex-row fixed-top " style="align-items: flex-start; justify-content: left; width: 240px; margin: 120px 0px; background: #ffffff;">
+    <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link disabled" aria-current="page" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2 13.5V7h1v6.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V7h1v6.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5zm11-11V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+          <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+        </svg>
+        Inicio
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-compass" viewBox="0 0 16 16">
+          <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+          <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z"/>
+        </svg>
+        Explorar</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-collection-play" viewBox="0 0 16 16">
+          <path d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1zm2.765 5.576A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848l-4-2.5z"/>
+          <path d="M1.5 14.5A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zm13-1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5h-13A.5.5 0 0 0 1 6v7a.5.5 0 0 0 .5.5h13z"/>
+        </svg>
+        Inscrições</a>
+    </li>
+    <hr>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="0" aria-disabled="true">Biblioteca</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Historico</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Seus Videos</a>
+    </li><li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Assistir mais tarde</a>
+    </li><li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Mostrar mais</a>
+    </li>
+    <hr>
+    <h6>Mais do Youtube</h6>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Youtube Premium</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Filmes</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Jogos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Ao vivo</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Aprender</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Esportes</a>
+    </li>
+    <hr>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Configurações</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Histórico de denúncias</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Ajuda</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Enviar feedback</a>
+    </li>
+    </ul>
+  </div>
+</div>
+
+<!---->
+
+
+  
+  <div>
+  <div class="navbar navbar-light bg-white fixed-top" style="display: flex; justify-content: center ;margin:70px 0">
+    <hr style="margin: 0;">
+    <section class="categories-section">
+        <button type="button" class="btn btn-dark">Tudo</button>
+        <button type="button" class="btn btn-dark">Games</button>
+        <button type="button" class="btn btn-dark">Futebol</button>
+        <button type="button" class="btn btn-dark">Musicas</button>
+        <button type="button" class="btn btn-dark">Animes</button>
+    </section>
+    <hr style="margin: 0;">
+  </div>
+
+
+
+  
+
+
+
+  <div class="d-flex flex-row " style="align-items: flex-start; justify-content: center; margin:120px 0px 0px 240px">
+
+    <div class="container" style=" margin-top: 40px;">
+    <div div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-4">
+      <!--videos-->
+  
+        <div class="video col">
+          <a href="#" class="thumbnail" data-duration="18:30" src="maxresdefault.jpg">
+            <img class="channel-icon" src="low-profile-1.jpg" style="display: flex; min-width: 250px; min-height: 150px; max-width: 313px; max-height: 180px;">
+          </a>
+  
+          
+          <section class="video-section" style="display: flex;">
+            <button class="buttons btn btn-light" style="padding: 0; background: black; margin-right: 20px;">
+              <svg width="24" fill="currentColor" viewBox="0 1 16 16"></svg>
+            </button>
+            <article class="video-container" >
+              <div class="video-botton-section">
+                <div class="video-details">
+                  <a href="#">Texto do video teste</a>
+                  <div>
+                    <a href="#">Ryan & André</a>
+                    <div class="video-metadata">
+                      <span>1.5M views</span>
+                        •
+                      <span>hà 2h</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+
+        <div class="video col">
+          <a href="#" class="thumbnail" data-duration="18:30" src="menu-profile-icon.png">
+            <img class="channel-icon" src="prata-ao-global.jpg" style="display: flex; min-width: 250px; min-height: 150px; max-width: 313px; max-height: 180px;">
+          </a>
+  
+          
+          <section class="video-section" style="display: flex;">
+            <button class="buttons btn btn-light" style="padding: 0; background: black; margin-right: 20px;">
+              <svg width="24" fill="currentColor" viewBox="0 1 16 16"></svg>
+            </button>
+            <article class="video-container" >
+              <div class="video-botton-section">
+                <div class="video-details">
+                  <a href="#">Prata joga Train? #01</a>
+                  <div>
+                    <a href="#">BiDa</a>
+                    <div class="video-metadata">
+                      <span>90.020 views</span>
+                        •
+                      <span>hà 2h</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+
+
+        <div class="video col">
+          <a href="#" class="thumbnail" data-duration="18:30" src="maxresdefault.jpg">
+            <img class="channel-icon" src="mcdede.png" style="display: flex; min-width: 250px; min-height: 150px; max-width: 313px; max-height: 180px;">
+          </a>
+  
+          
+          <section class="video-section" style="display: flex;">
+            <button class="buttons btn btn-light" style="padding: 0; background: black; margin-right: 20px;">
+              <svg width="24" fill="currentColor" viewBox="0 1 16 16"></svg>
+            </button>
+            <article class="video-container" >
+              <div class="video-botton-section">
+                <div class="video-details">
+                  <a href="#">MC DEDE - Podpah #77</a>
+                  <div>
+                    <a href="#">Podpah</a>
+                    <div class="video-metadata">
+                      <span>669 mil views</span>
+                        •
+                      <span>hà 2h</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+
+
+        <div class="video col">
+          <a href="#" class="thumbnail" data-duration="18:30" src="maxresdefault.jpg">
+            <img class="channel-icon" src="low-profile-1.jpg" style="display: flex; min-width: 250px; min-height: 150px; max-width: 313px; max-height: 180px;">
+          </a>
+  
+          
+          <section class="video-section" style="display: flex;">
+            <button class="buttons btn btn-light" style="padding: 0; background: black; margin-right: 20px;">
+              <svg width="24" fill="currentColor" viewBox="0 1 16 16"></svg>
+            </button>
+            <article class="video-container" >
+              <div class="video-botton-section">
+                <div class="video-details">
+                  <a href="#">Texto do video teste</a>
+                  <div>
+                    <a href="#">Ryan & André</a>
+                    <div class="video-metadata">
+                      <span>1.5M views</span>
+                        •
+                      <span>hà 2h</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+
+        <div class="video col">
+          <a href="#" class="thumbnail" data-duration="18:30" src="maxresdefault.jpg">
+            <img class="channel-icon" src="7x1.jpg" style="display: flex; min-width: 250px; min-height: 150px; max-width: 313px; max-height: 180px;">
+          </a>
+  
+          
+          <section class="video-section" style="display: flex;">
+            <button class="buttons btn btn-light" style="padding: 0; background: black; margin-right: 20px;">
+              <svg width="24" fill="currentColor" viewBox="0 1 16 16"></svg>
+            </button>
+            <article class="video-container" >
+              <div class="video-botton-section">
+                <div class="video-details">
+                  <a href="#">Alemanha 7 x 1 Brasil</a>
+                  <div>
+                    <a href="#">Jogos Históricos</a>
+                    <div class="video-metadata">
+                      <span>130.902 views</span>
+                        •
+                      <span>hà 2h</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+
+
+        <div class="video col">
+          <a href="#" class="thumbnail" data-duration="18:30" src="maxresdefault.jpg">
+            <img class="channel-icon" src="mariliamendonca.jpg" style="display: flex; min-width: 250px; min-height: 150px; max-width: 313px; max-height: 180px;">
+          </a>
+  
+          
+          <section class="video-section" style="display: flex;">
+            <button class="buttons btn btn-light" style="padding: 0; background: black; margin-right: 20px;">
+              <svg width="24" fill="currentColor" viewBox="0 1 16 16"></svg>
+            </button>
+            <article class="video-container" >
+              <div class="video-botton-section">
+                <div class="video-details">
+                  <a href="#">Marília Mendonça - SUPERA </a>
+                  <div>
+                    <a href="#">Marília Mendonça</a>
+                    <div class="video-metadata">
+                      <span>22,6M views</span>
+                        •
+                      <span>hà 2h</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+
+        <div class="video col">
+          <a href="#" class="thumbnail" data-duration="18:30" src="low-profile-1.jpg">
+            <img class="channel-icon" src="palmeiras.jpg" style="display: flex; min-width: 250px; min-height: 150px; max-width: 313px; max-height: 180px;">
+          </a>
+  
+          
+          <section class="video-section" style="display: flex;">
+            <button class="buttons btn btn-light" style="padding: 0; background: black; margin-right: 20px;">
+              <svg width="24" fill="currentColor" viewBox="0 1 16 16"></svg>
+            </button>
+            <article class="video-container" >
+              <div class="video-botton-section">
+                <div class="video-details">
+                  <a href="#">COLETIVA ABEL FERREIRA </a>
+                  <div>
+                    <a href="#">TV Palmeiras/FAM</a>
+                    <div class="video-metadata">
+                      <span>22,6M views</span>
+                        •
+                      <span>hà 2h</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--fim dos videos-->
+
+    
+    </div>
+  </div>
+</body>
+</html>

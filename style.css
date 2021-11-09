@@ -1,0 +1,32 @@
+.body{
+    background-color: #000;
+}
+.Youtube-Logo{
+    width: 26px;
+    height: 26px;
+}
+
+.buttons {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 12px;
+    background-color: #F9F9F9;
+}
+.btn-dark{
+    border-radius: 60px;
+    margin-left: 12px;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    color: black;
+    border-color: #d9d9d9;
+}
+
+.video {
+    width: auto; 
+    margin-right: 10px;
+}
+
+.video-botton-section{
+    justify-content:left ;
+}
